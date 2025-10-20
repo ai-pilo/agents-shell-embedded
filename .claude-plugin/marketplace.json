@@ -1,21 +1,25 @@
 {
   "name": "agents-shell-embedded",
-  "owner": "ai-pilo",
+  "owner": {
+    "name": "ai-pilo",
+    "email": "",
+    "url": "https://github.com/ai-pilo"
+  },
   "plugins": [
     {
       "name": "shell-scripting",
       "version": "1.2.2",
-      "source": "plugins/shell-scripting"
+      "source": "./plugins/shell-scripting"
     },
     {
       "name": "arm-cortex-microcontrollers",
       "version": "1.2.2",
-      "source": "plugins/arm-cortex-microcontrollers"
+      "source": "./plugins/arm-cortex-microcontrollers"
     },
     {
       "name": "systems-programming",
       "version": "1.2.2",
-      "source": "plugins/systems-programming"
+      "source": "./plugins/systems-programming"
     }
   ]
 }
